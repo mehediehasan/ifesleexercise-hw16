@@ -1,0 +1,887 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgmain"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+        android:textColor="#fff"
+        android:text="If Else Problem Exercise"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Problem 01 : maximum between two numbers."
+                    android:textStyle="bold"
+                    android:textColor="#fff"/>
+
+                <EditText
+                    android:layout_margin="10dp"
+                    android:background="#49FFFFFF"
+                    android:id="@+id/edtlmaxNumber1Id"
+                    android:hint="Enter Number 1"
+                    android:textColorHint="#B3FFFFFF"
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:ems="10"
+                    android:inputType="number" />
+                <EditText
+                    android:layout_margin="10dp"
+                    android:background="#49FFFFFF"
+                    android:id="@+id/edtlmaxNumber2Id"
+                    android:hint="Enter Number 2"
+                    android:textColorHint="#B3FFFFFF"
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:ems="10"
+                    android:inputType="number" />
+
+                <TextView
+                    android:id="@+id/tvDisplayId1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#fff"
+                    android:text="01. Answere 1" />
+
+
+                <Button
+                    android:layout_margin="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="Check"
+                    android:id="@+id/btn1"
+                    android:background="#ADFFFFFF"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Problem 02 : Even odd  numbers."
+                    android:textStyle="bold"
+                    android:textColor="#fff"/>
+
+                <EditText
+                    android:layout_margin="10dp"
+                    android:background="#49FFFFFF"
+                    android:id="@+id/edtevenoddId"
+                    android:hint="Check Even Odd"
+                    android:textColorHint="#B3FFFFFF"
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:ems="10"
+                    android:inputType="number" />
+
+                <TextView
+                    android:id="@+id/tvDisplayId2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#fff"
+                    android:text="02. Answere 2" />
+
+                <Button
+                    android:layout_margin="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="Check"
+                    android:id="@+id/btn2"
+                    android:background="#ADFFFFFF"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Problem 03 : Check Leap Year."
+                    android:textStyle="bold"
+                    android:textColor="#fff"/>
+
+                <EditText
+                    android:layout_margin="10dp"
+                    android:background="#49FFFFFF"
+                    android:id="@+id/edtleapyearId"
+                    android:hint="Check Leap Year"
+                    android:textColorHint="#B3FFFFFF"
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:ems="10"
+                    android:inputType="number" />
+
+
+                <TextView
+                    android:id="@+id/tvDisplayId3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#fff"
+                    android:text="03. Answere 3" />
+
+                <Button
+                    android:layout_margin="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="Check"
+                    android:id="@+id/btn3"
+                    android:background="#ADFFFFFF"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Problem 04 : Check alphabet."
+                    android:textStyle="bold"
+                    android:textColor="#fff"/>
+
+                <EditText
+                    android:layout_margin="10dp"
+                    android:background="#49FFFFFF"
+                    android:id="@+id/edtalphaetId"
+                    android:hint="Check Aphabet"
+                    android:textColorHint="#B3FFFFFF"
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:ems="10"
+                    android:inputType="text" />
+
+
+                <TextView
+                    android:id="@+id/tvDisplayId4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#fff"
+                    android:text="04. Answere 4" />
+
+                <Button
+                    android:layout_margin="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="Check"
+                    android:id="@+id/btn4"
+                    android:background="#ADFFFFFF"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Problem 05 : Positive or Negative Numbers."
+                    android:textStyle="bold"
+                    android:textColor="#fff"/>
+
+
+                <EditText
+                    android:layout_margin="10dp"
+                    android:background="#49FFFFFF"
+                    android:id="@+id/edtpostivitveId"
+                    android:hint="Check Positive Number"
+                    android:textColorHint="#B3FFFFFF"
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:ems="10"
+                    android:inputType="" />
+
+
+                <TextView
+                    android:id="@+id/tvDisplayId5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#fff"
+                    android:text="05. Answere 5" />
+
+                <Button
+                    android:layout_margin="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="Check"
+                    android:id="@+id/btn5"
+                    android:background="#ADFFFFFF"/>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Problem 06 : Check Divisiblity by 5 and 11."
+                    android:textStyle="bold"
+                    android:textColor="#fff"/>
+
+                <EditText
+                    android:layout_margin="10dp"
+                    android:background="#49FFFFFF"
+                    android:id="@+id/edtdivisable5ana11Id"
+                    android:hint="Check divisibility : 5 and 11"
+                    android:textColorHint="#B3FFFFFF"
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:ems="10"
+                    android:inputType="number" />
+
+
+                <TextView
+                    android:id="@+id/tvDisplayId6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#fff"
+                    android:text="06. Answere 6" />
+
+                <Button
+                    android:layout_margin="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="Check"
+                    android:id="@+id/btn6"
+                    android:background="#ADFFFFFF"/>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Problem 07 : Check Vowel / Consonant."
+                    android:textStyle="bold"
+                    android:textColor="#fff"/>
+
+                <EditText
+                    android:layout_margin="10dp"
+                    android:background="#49FFFFFF"
+                    android:id="@+id/edvowelId"
+                    android:hint="Check Vowel"
+                    android:textColorHint="#B3FFFFFF"
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:ems="10"
+                    android:inputType="text" />
+
+
+                <TextView
+                    android:id="@+id/tvDisplayId7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#fff"
+                    android:text="07. Answere 7" />
+
+                <Button
+                    android:layout_margin="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="Check"
+                    android:id="@+id/btn7"
+                    android:background="#ADFFFFFF"/>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Problem 08 : Check Aplhabet / Digit / Special Character."
+                    android:textStyle="bold"
+                    android:textColor="#fff"/>
+
+                <EditText
+                    android:layout_margin="10dp"
+                    android:background="#49FFFFFF"
+                    android:id="@+id/edtalpdigitspecialId"
+                    android:hint="Check digit, alphabet, sp char"
+                    android:textColorHint="#B3FFFFFF"
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:ems="10"
+                    android:inputType="text" />
+
+
+                <TextView
+                    android:id="@+id/tvDisplayId8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#fff"
+                    android:text="08. Answere 8" />
+
+                <Button
+                    android:layout_margin="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="Check"
+                    android:id="@+id/btn8"
+                    android:background="#ADFFFFFF"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Problem 09 : Check UpperCase/LowerCase."
+                    android:textStyle="bold"
+                    android:textColor="#fff"/>
+
+                <EditText
+                    android:layout_margin="10dp"
+                    android:background="#49FFFFFF"
+                    android:id="@+id/edtupperlowerId"
+                    android:hint="Check Upper or Lower case"
+                    android:textColorHint="#B3FFFFFF"
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:ems="10"
+                    android:inputType="text" />
+
+
+                <TextView
+                    android:id="@+id/tvDisplayId9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#fff"
+                    android:text="09. Answere 9" />
+
+                <Button
+                    android:layout_margin="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="Check"
+                    android:id="@+id/btn9"
+                    android:background="#ADFFFFFF"/>
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Problem 10 : Check Week by Number."
+                    android:textStyle="bold"
+                    android:textColor="#fff"/>
+
+                <EditText
+                    android:layout_margin="10dp"
+                    android:background="#49FFFFFF"
+                    android:id="@+id/edtweekCoountId"
+                    android:hint="Enter Day"
+                    android:textColorHint="#B3FFFFFF"
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:ems="10"
+                    android:inputType="number" />
+
+
+                <TextView
+                    android:id="@+id/tvDisplayId10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#fff"
+                    android:text="10. Answere 10" />
+
+                <Button
+                    android:layout_margin="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="Check"
+                    android:id="@+id/btn10"
+                    android:background="#ADFFFFFF"/>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Problem 11 : Check Month by Number."
+                    android:textStyle="bold"
+                    android:textColor="#fff"/>
+
+                <EditText
+                    android:layout_margin="10dp"
+                    android:background="#49FFFFFF"
+                    android:id="@+id/edtmontcountId"
+                    android:hint="Enter Month Number"
+                    android:textColorHint="#B3FFFFFF"
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:ems="10"
+                    android:inputType="number" />
+
+
+                <TextView
+                    android:id="@+id/tvDisplayId11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#fff"
+                    android:text="11. Answere 11" />
+
+                <Button
+                    android:layout_margin="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="Check"
+                    android:id="@+id/btn11"
+                    android:background="#ADFFFFFF"/>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Problem 12 : Check total number of note by given amount."
+                    android:textStyle="bold"
+                    android:textColor="#fff"/>
+
+                <EditText
+                    android:layout_margin="10dp"
+                    android:background="#49FFFFFF"
+                    android:id="@+id/edtamountId"
+                    android:hint="Enter Amount"
+                    android:textColorHint="#B3FFFFFF"
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:ems="10"
+                    android:inputType="number" />
+
+
+                <TextView
+                    android:id="@+id/tvDisplayId12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#fff"
+                    android:text="12. Answere 12" />
+
+                <Button
+                    android:layout_margin="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="Check"
+                    android:id="@+id/btn12"
+                    android:background="#ADFFFFFF"/>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Problem 13 : Check whether triangle is valid or not."
+                    android:textStyle="bold"
+                    android:textColor="#fff"/>
+
+                <EditText
+                    android:layout_margin="10dp"
+                    android:background="#49FFFFFF"
+                    android:id="@+id/edtriandgle1"
+                    android:hint="Enter Angle 1"
+                    android:textColorHint="#B3FFFFFF"
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:ems="10"
+                    android:inputType="number" />
+                <EditText
+                    android:layout_margin="10dp"
+                    android:background="#49FFFFFF"
+                    android:id="@+id/edtriandgle2"
+                    android:hint="Enter Angle 2"
+                    android:textColorHint="#B3FFFFFF"
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:ems="10"
+                    android:inputType="number" />
+                <EditText
+                    android:layout_margin="10dp"
+                    android:background="#49FFFFFF"
+                    android:id="@+id/edtriandgle3"
+                    android:hint="Enter Angle 3"
+                    android:textColorHint="#B3FFFFFF"
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:ems="10"
+                    android:inputType="number" />
+
+
+                <TextView
+                    android:id="@+id/tvDisplayId13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#fff"
+                    android:text="13. Answere 13" />
+
+                <Button
+                    android:layout_margin="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="Check"
+                    android:id="@+id/btn13"
+                    android:background="#ADFFFFFF"/>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Problem 14 : Check whether the triangle is equilateral, isosceles or scalene triangle."
+                    android:textStyle="bold"
+                    android:textColor="#fff"/>
+
+                <EditText
+                    android:layout_margin="10dp"
+                    android:background="#49FFFFFF"
+                    android:id="@+id/edtriandgle2a"
+                    android:hint="Enter Angle 1"
+                    android:textColorHint="#B3FFFFFF"
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:ems="10"
+                    android:inputType="number" />
+                <EditText
+                    android:layout_margin="10dp"
+                    android:background="#49FFFFFF"
+                    android:id="@+id/edtriandgle2b"
+                    android:hint="Enter Angle 2"
+                    android:textColorHint="#B3FFFFFF"
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:ems="10"
+                    android:inputType="number" />
+                <EditText
+                    android:layout_margin="10dp"
+                    android:background="#49FFFFFF"
+                    android:id="@+id/edtriandgle2c"
+                    android:hint="Enter Angle 3"
+                    android:textColorHint="#B3FFFFFF"
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:ems="10"
+                    android:inputType="number" />
+
+
+                <TextView
+                    android:id="@+id/tvDisplayId14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#fff"
+                    android:text="14. Answere 14" />
+
+                <Button
+                    android:layout_margin="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="Check"
+                    android:id="@+id/btn14"
+                    android:background="#ADFFFFFF"/>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Problem 15 : Check Profit or Loss "
+                    android:textStyle="bold"
+                    android:textColor="#fff"/>
+
+                <EditText
+                    android:layout_margin="10dp"
+                    android:background="#49FFFFFF"
+                    android:id="@+id/edtbuypriceId"
+                    android:hint="Enter Buy Price"
+                    android:textColorHint="#B3FFFFFF"
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:ems="10"
+                    android:inputType="number" />
+                <EditText
+                    android:layout_margin="10dp"
+                    android:background="#49FFFFFF"
+                    android:id="@+id/edtsellpriceId"
+                    android:hint="Enter Sell Price"
+                    android:textColorHint="#B3FFFFFF"
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:ems="10"
+                    android:inputType="number" />
+
+
+
+                <TextView
+                    android:id="@+id/tvDisplayId15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#fff"
+                    android:text="15. Answere 15" />
+
+                <Button
+                    android:layout_margin="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="Check"
+                    android:id="@+id/btn15"
+                    android:background="#ADFFFFFF"/>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Problem 16 : Check Result Grading "
+                    android:textStyle="bold"
+                    android:textColor="#fff"/>
+
+                <EditText
+                    android:layout_margin="10dp"
+                    android:background="#49FFFFFF"
+                    android:id="@+id/physicsId"
+                    android:hint="Physics"
+                    android:textColorHint="#B3FFFFFF"
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:ems="10"
+                    android:inputType="number" />
+                <EditText
+                    android:layout_margin="10dp"
+                    android:background="#49FFFFFF"
+                    android:id="@+id/chamestryId"
+                    android:hint="Chemistry"
+                    android:textColorHint="#B3FFFFFF"
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:ems="10"
+                    android:inputType="number" />
+                <EditText
+                    android:layout_margin="10dp"
+                    android:background="#49FFFFFF"
+                    android:id="@+id/mathId"
+                    android:hint="Math"
+                    android:textColorHint="#B3FFFFFF"
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:ems="10"
+                    android:inputType="number" />
+
+
+
+                <TextView
+                    android:id="@+id/tvDisplayId16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#fff"
+                    android:text="16. Answere 16" />
+
+                <Button
+                    android:layout_margin="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="Check"
+                    android:id="@+id/btn16"
+                    android:background="#ADFFFFFF"/>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
